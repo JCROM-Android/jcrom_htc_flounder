@@ -4,6 +4,14 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.voice.capable=false
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.sms.capable=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.ui.phone=600 \
+    persist.sys.ui.tablet=320 \
+    persist.sys.ui.phablet=286
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.ui.select=1
+
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Tethys.ogg \
     ro.config.alarm_alert=Oxygen.ogg \
